@@ -1,0 +1,6 @@
+custom.home:
+  path: /custom/form
+  defaults: 
+      _form: Drupal\form\Form\CustomForm
+  requirements:
+      _permission: 'access content'
